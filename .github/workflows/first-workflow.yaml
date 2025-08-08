@@ -22,7 +22,7 @@ jobs:
     needs: run-shell-commands
     steps:
       - name: echo a string
-        run: Write-Output "I am on Windows Now ..."
+        run: Write-Output "I am on Windows Now..."
       - name: error step
-        run: DoesNotExists
+        run: Write-Output "Again..I am on Windows Now..."
 
