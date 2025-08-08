@@ -23,6 +23,6 @@ jobs:
     steps:
       - name: echo a string
         run: Write-Output "I am on Windows Now..."
-      - name: error step
-        run: Write-Output "Again..I am on Windows Now..."
+      - name: error step#1
+        run: Write-Output "Again..I am on Windows Now"
 
